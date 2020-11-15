@@ -1,0 +1,109 @@
+*
+{
+    font-family: arial, lato, sans-serif
+}
+body
+{
+    background-image: url("parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+label
+{
+    margin-top:30px;
+    margin-left:20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-div
+{
+    margin: 100px auto;
+    background-color: #fff;
+    width: 350px;
+    padding: 60px
+}
+.title, .subtitle
+{
+    text-align: center;   
+}
+.title
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}
+.subtitle
+{
+    font-size: 20px
+}
+.form
+{
+    width: 100%;
+    margin-top: 10px;
+}
+.form input
+{
+    font-size: 20px;
+    padding:10px 20px 10px 5px;
+    border: none;
+    outline: none;
+}
+.username, .password
+{
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px 0;
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+button.login-btn
+{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 5px;
+}
+.forgot-password
+{
+    margin-top: 5px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+.sidebar
+{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #4487ab;
+    padding-top: 20px;
+}
+.sidebar a
+{
+    padding: 6px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+.sidebar a:hover
+{
+    background-color: lightslategray;
+    color: black;
+}
